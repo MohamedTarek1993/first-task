@@ -1,0 +1,120 @@
+@media only screen and (max-width: 991.98px) {
+  .header {
+    height: 70vh;
+  }
+  .image {
+    margin-top: 4rem;
+  }
+  .services {
+    .text {
+      width: 60%;
+    }
+    .services_section {
+      .card_service {
+        width: 32%;
+        &:nth-child(4),
+        &:nth-child(8) {
+          margin-inline-end: 1.8%;
+        }
+        &:nth-child(5),
+        &:nth-child(10) {
+          margin-inline-end: 1.8%;
+        }
+        &:nth-child(3),
+        &:nth-child(6),
+        &:nth-child(9) {
+          margin-inline-end: 0;
+        }
+      }
+    }
+  }
+  .services_details {
+    .image {
+      img {
+        width: 70%;
+      }
+      &::after {
+        width: 70%;
+        top: -7%;
+        left: 10%;
+      }
+    }
+  }
+  .library {
+    .text {
+      width: 80%;
+    }
+    .card_library {
+      &.video_card {
+        height: 315px;
+      }
+    }
+  }
+  .article {
+    .title {
+      width: 60%;
+    }
+    .text {
+      width: 85%;
+    }
+  }
+  .video_details {
+    .title {
+      width: 50%;
+    }
+    .image_article {
+      height: 400px;
+    }
+  }
+  .legislation {
+    .legislation_card {
+      .description {
+        .title {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .consult {
+    .image {
+      img {
+        width: 70%;
+        height: 350px;
+      }
+      &::after {
+        width: 70%;
+        left: 11%;
+        height: 350px;
+      }
+      &::before {
+        content: unset;
+      }
+    }
+  }
+  .contact {
+    .contact_data {
+      width: 80%;
+      margin: 2rem auto 0;
+    }
+  }
+  footer {
+    .logo {
+      margin: 0 auto;
+    }
+    .title_footer {
+      text-align: center;
+    }
+    .col-links {
+      text-align: center;
+    }
+    .donwload_pdf {
+      display: block;
+      width: fit-content;
+      margin: 1.5rem auto 2rem;
+    }
+    .twitter-tweet {
+      width: 400px !important;
+      margin: 0 auto;
+    }
+  }
+}
